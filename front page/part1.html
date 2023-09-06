@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> IPMC PROJECT GUIDE</title>
+    <link rel="stylesheet" href="part1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+      <nav>
+        <a href="part1.html"><img src="/images/center.jpeg"></a>
+        <div class="nav-links"id="navLinks" >
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+              <li><a href="home.html">HOME</a></li>
+              <li><a href="courses.html">COURSES</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+          <h1>Welcome to IPMC Project Guide</h1>
+            <p>Get all your Advanced Professional Course modules,project ideas and relaible sites to aid you prepare for examinations here.</p>
+            <a href="" class="semi-btn"> Login to get started</a>
+
+      </div>
+    </section>
+<!-------Course------>
+<section class="Courses">
+  <h1> IPMC Advanced Professional Courses We Offer </h1>
+  <p>These courses give you hands-on skills to solve practical real world problems. </p>
+
+<div class="Desk">
+ <div class="Edith">
+  <h3>Software Engineering</h3>
+  <p>Software engineering is a systematic engineering approach to software development. A software engineer is a person who applies the principles of software engineering to design, develop, maintain, test, and evaluate computer software. </p>
+  <p><a href="SyE.html">Modules</a>  <a href="">Project ideas</a>  <a href="">Test yourself</a></p>
+ </div>
+
+  <div class="Mamppe">
+    <h3>Systems Engineering</h3>
+    <p>Systems engineering focuses on the development and refinement of systems and processes. A systems engineer can work in many fields, designing and implementing innovative systems that improve the functionality and safety of a company's operations.</p>
+    <p><a href="">Modules</a>  <a href="">Project ideas</a>  <a href="">Test yourself</a></p>
+  </div>
+
+  <div class="Edith">
+    <h3>Cyber Security</h3>
+    <p>the practice of protecting critical systems and sensitive information from digital attacks. Also known as information technology (IT) security, cybersecurity measures are designed to combat threats against networked systems and applications, whether those threats …</p>
+    <p><a href="">Modules</a>  <a href="">Project ideas</a>  <a href="">Test yourself</a></p>
+  </div>
+</div>
+</section>
+
+<section class="Programs">
+  <div class="Row">
+    <div class="Edith">
+      <h3>Digital Marketing</h3>
+      <p>Is a form of marketing for promoting and selling products or services on the Internet.</p>
+      <p><a href="">Modules</a>  <a href="">Project ideas</a>  <a href="">Test yourself</a></p>
+    </div>
+  
+    <div class="Edith">
+      <h3>Graphic & Web Design</h3>
+      <p>The act of communicating visual elements. However, their relevance may vary depending on the characteristics of the project.</p>
+      <p><a href="">Modules</a>  <a href="">Project ideas</a>  <a href="">Test yourself</a></p>
+    </div>
+  
+    <div class="Edith">
+      <h3>Database Technology</h3>
+      <p>Is the collection of databases used to extract, store, analyze, organize and process information for database users</p>
+      <p><a href="">Modules</a>  <a href="">Project ideas</a>  <a href="">Test yourself</a></p>
+    </div>
+  
+   
+  </div>
+</section>
+
+   <!------Javascript fot toogle Menu----->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu(){
+        navLinks.style.right = "0";
+      }
+      function hideMenu(){
+        navLinks.style.right = "-200px";
+      }
+
+    </script>
+</body>
+</html>
